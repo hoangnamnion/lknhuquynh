@@ -1,74 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
-  <dict>
-    <key>PayloadDisplayName</key>
-    <string>NHƯ QUỲNH - DNS</string>
-    <key>PayloadDescription</key>
-    <string> Chức Năng : 
-✔️ Bảo Vệ Không Mất Locket Gold 
-_NHƯ QUỲNH_
-    </string>
-    <key>PayloadIdentifier</key>
-    <string>io.nextdns.96b25a.profile</string>
-    <key>PayloadScope</key>
-    <string>System</string>
-    <key>PayloadType</key>
-    <string>Configuration</string>
-    <key>PayloadUUID</key>
-    <string>A1E2F262-DB73-40F6-BD22-2E42A43A3C94.96b25a</string>
-    <key>PayloadVersion</key>
-    <integer>1</integer>
-    <key>PayloadContent</key>
-    <array>
-      <dict>
-        <key>DNSSettings</key>
-        <dict>
-          <key>DNSProtocol</key>
-          <string>HTTPS</string>
-          <key>ServerURL</key>
-          <string>https://apple.dns.nextdns.io/96b25a</string>
-        </dict>
-        <key>OnDemandRules</key>
-        <array>
-          <dict>
-            <key>Action</key>
-            <string>EvaluateConnection</string>
-            <key>ActionParameters</key>
-            <array>
-              <dict>
-                <key>DomainAction</key>
-                <string>NeverConnect</string>
-                <key>Domains</key>
-                <array>
-                  <string>captive.apple.com</string>
-                  <string>dav.orange.fr</string>
-                  <string>vvm.mobistar.be</string>
-                  <string>vvm.mstore.msg.t-mobile.com</string>
-                  <string>tma.vvm.mone.pan-net.eu</string>
-                  <string>vvm.ee.co.uk</string>
-                </array>
-              </dict>
-            </array>
-          </dict>
-          <dict>
-            <key>Action</key>
-            <string>Connect</string>
-          </dict>
-        </array>
-        <key>PayloadType</key>
-        <string>com.apple.dnsSettings.managed</string>
-        <key>PayloadIdentifier</key>
-        <string>io.nextdns.96b25a.profile.dnsSettings.managed</string>
-        <key>PayloadUUID</key>
-        <string>A1E2F262-DB73-40F6-BD22-2E42A43A3C94.96b25a.dnsSettings.managed</string>
-        <key>PayloadDisplayName</key>
-        <string>LOCKET GOLD NHƯ QUỲNH</string>
-        <key>PayloadOrganization</key>
-        <string>On</string>
-        <key>PayloadVersion</key>
-        <integer>1</integer>
-      </dict>
-    </array>
-  </dict>
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>DNSSettings</key>
+			<dict>
+				<key>DNSProtocol</key>
+				<string>HTTPS</string>
+				<key>ServerURL</key>
+				<string>https://dns.nextdns.io/4c9e16</string>
+			</dict>
+			<key>PayloadDescription</key>
+			<string>💛 Nâng LOCKET GOLD
+            Zalo 0775574308
+</string>
+			<key>PayloadDisplayName</key>
+			<string>Như Quỳnh - Locket Gold</string>
+			<key>PayloadIdentifier</key>
+			<string>com.camsitup.controld.dnsprofile</string>
+			<key>PayloadOrganization</key>
+			<string>như quỳnh cute</string>
+			<key>PayloadType</key>
+			<string>com.apple.dnsSettings.managed</string>
+			<key>PayloadUUID</key>
+			<string>0E3B4D2E-4C3F-4B2D-BAE6-8E1F6E7A2F44</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		</dict>
+	</array>
+	<key>PayloadDescription</key>
+	<string>💛 Nâng LOCKET GOLD
+            Zalo 0775574308</string>
+	<key>PayloadDisplayName</key>
+	<string>PHẠM VŨ NHƯ QUỲNH</string>
+	<key>PayloadIdentifier</key>
+	<string>com.camsitup.profile.controld.doh</string>
+	<key>PayloadOrganization</key>
+	<string>như quỳnh cute</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>5A9E1F7C-01B3-4E90-BB7E-712F93E19F66</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
 </plist>
